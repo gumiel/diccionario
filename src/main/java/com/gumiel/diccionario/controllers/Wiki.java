@@ -20,7 +20,7 @@ public class Wiki {
   private static final String GITLAB_API_URL = "https://gitlab.et.bo/api/v4";
   private static final String PROJECT_ID = "714"; // ID del proyecto
   private static final String PAGE_SLUG = "home"; // Nombre de la página (URL encoded)
-  private static final String PRIVATE_TOKEN = "glpat-9xTYytYuC855xxzX86Ng";
+  private static final String PRIVATE_TOKEN = "11";
 
   @GetMapping
   public ResponseEntity<String> wikis() throws IOException {
