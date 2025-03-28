@@ -16,13 +16,13 @@ public class Diccionario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-
+    @Column(length = 500, nullable = false)
     private String tabla;
-
+    @Column(length = 500, nullable = false)
     private String tipoCampo;
-
+    @Column(length = 500, nullable = false)
     private String nombreCampo;
-
+    @Column(length = 500, nullable = false)
     private String descripcionCampo;
 
 
